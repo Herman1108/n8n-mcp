@@ -1,0 +1,27 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "n8n Automation MCP",
+  "name_for_model": "n8n_mcp_plugin",
+  "description_for_human": "Let Claude build n8n automation workflows for you.",
+  "description_for_model": "Helps build Telegram/WhatsApp/AI/GoogleSheets based n8n workflows through structured tools and prompts.",
+  "auth": { "type": "none" },
+  "api": {
+    "type": "openapi",
+    "url": "http://localhost:4280/openapi.yaml"
+  },
+  "logo_url": "http://localhost:4280/logo.png",
+  "contact_email": "support@example.com",
+  "legal_info_url": "http://localhost:4280/legal"
+}
+
+
+
+
+
+
+
+
+
+
+
+add ai-plugin.json manifest
