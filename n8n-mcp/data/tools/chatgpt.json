@@ -1,0 +1,18 @@
+{
+  "name": "chatgpt",
+  "description": "Interact with ChatGPT via OpenAI API",
+  "input_schema": {
+    "type": "object",
+    "properties": {
+      "prompt": {
+        "type": "string"
+      },
+      "temperature": {
+        "type": "number"
+      }
+    },
+    "required": [
+      "prompt"
+    ]
+  }
+}

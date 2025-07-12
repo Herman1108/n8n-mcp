@@ -1,0 +1,17 @@
+{
+  "name": "faq_sheet",
+  "type": "tabular",
+  "description": "Sheet containing FAQ with columns 'Question' and 'Answer'.",
+  "schema": {
+    "columns": [
+      {
+        "name": "Question",
+        "type": "string"
+      },
+      {
+        "name": "Answer",
+        "type": "string"
+      }
+    ]
+  }
+}

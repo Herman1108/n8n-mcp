@@ -1,0 +1,19 @@
+{
+  "name": "cloud",
+  "description": "Cloud storage or function trigger",
+  "input_schema": {
+    "type": "object",
+    "properties": {
+      "provider": {
+        "type": "string"
+      },
+      "action": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "provider",
+      "action"
+    ]
+  }
+}

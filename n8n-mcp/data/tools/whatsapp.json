@@ -1,0 +1,19 @@
+{
+  "name": "whatsapp",
+  "description": "WhatsApp integration via API to send messages",
+  "input_schema": {
+    "type": "object",
+    "properties": {
+      "phone_number": {
+        "type": "string"
+      },
+      "message": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "phone_number",
+      "message"
+    ]
+  }
+}

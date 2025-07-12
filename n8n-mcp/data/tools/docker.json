@@ -1,0 +1,19 @@
+{
+  "name": "docker",
+  "description": "Run commands in Docker containers",
+  "input_schema": {
+    "type": "object",
+    "properties": {
+      "image": {
+        "type": "string"
+      },
+      "command": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "image",
+      "command"
+    ]
+  }
+}

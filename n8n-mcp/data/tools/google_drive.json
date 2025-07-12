@@ -1,0 +1,23 @@
+{
+  "name": "google_drive",
+  "description": "Upload or download files to Google Drive",
+  "input_schema": {
+    "type": "object",
+    "properties": {
+      "file_id": {
+        "type": "string"
+      },
+      "action": {
+        "type": "string",
+        "enum": [
+          "upload",
+          "download"
+        ]
+      }
+    },
+    "required": [
+      "file_id",
+      "action"
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "claude",
+  "description": "Send prompt to Claude AI using their API",
+  "input_schema": {
+    "type": "object",
+    "properties": {
+      "message": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "message"
+    ]
+  }
+}

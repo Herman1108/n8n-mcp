@@ -1,0 +1,15 @@
+{
+  "name": "code",
+  "description": "Execute custom JavaScript code",
+  "input_schema": {
+    "type": "object",
+    "properties": {
+      "code": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "code"
+    ]
+  }
+}

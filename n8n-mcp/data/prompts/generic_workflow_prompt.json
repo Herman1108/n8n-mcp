@@ -1,0 +1,5 @@
+{
+  "name": "generic_workflow_prompt",
+  "description": "Prompt for Claude to generate n8n workflow from user instruction",
+  "template": "User wants a workflow with trigger: {{trigger}}. The flow should include steps: {{steps}} and respond via {{output}}. Build this using available tools."
+}

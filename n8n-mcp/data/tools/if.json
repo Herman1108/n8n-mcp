@@ -1,0 +1,21 @@
+{
+  "name": "if",
+  "description": "Conditional logic operator for branching workflows",
+  "input_schema": {
+    "type": "object",
+    "properties": {
+      "condition": {
+        "type": "string"
+      },
+      "true_path": {
+        "type": "string"
+      },
+      "false_path": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "condition"
+    ]
+  }
+}

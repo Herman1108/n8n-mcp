@@ -1,0 +1,27 @@
+{
+  "name": "google_sheet",
+  "description": "Read/write rows from Google Sheets",
+  "input_schema": {
+    "type": "object",
+    "properties": {
+      "sheet_id": {
+        "type": "string"
+      },
+      "range": {
+        "type": "string"
+      },
+      "operation": {
+        "type": "string",
+        "enum": [
+          "read",
+          "write"
+        ]
+      }
+    },
+    "required": [
+      "sheet_id",
+      "range",
+      "operation"
+    ]
+  }
+}
